@@ -1,0 +1,12 @@
+.Modal{
+    box-shadow: 2px 2px 2px white;
+    max-width: 18rem;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10%;
+    position: relative;
+    .Ula{animation-name: Ula;animation-duration: 5s; backface-visibility: visible;}@keyframes Ula{from{transform: rotateY(0deg)}to{transform: rotateY(720deg)}}
+    &__fadedbottom{animation-name: Modal__fadedbottom;animation-duration: 3s; animation-fill-mode: forwards;}@keyframes Modal__fadedbottom{from{left: 40rem;}to{left: 0;}}
+    &__fadedtop{animation-name: Modal__fadedtop;animation-duration: 3s; animation-fill-mode: forwards;}@keyframes Modal__fadedtop{from{right: 40rem;}to{right: 0;}}
+ 
+ 
+}

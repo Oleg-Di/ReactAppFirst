@@ -1,0 +1,28 @@
+.Header__items {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    align-items: center;
+    &__link {
+        text-decoration: none;
+        display: block;
+        font-size: 2rem;
+        color: #fff;
+        transition: color .7s;
+    }
+    &__link:hover {
+     color: #ccc;
+    }
+    .NavActive {
+        color: darkgrey;
+        background-color: none;
+    }
+   i {
+       position: relative;
+       top: 1.3rem;
+       color: white;
+   }
+    .with_icon{
+        display: flex;
+    }
+}

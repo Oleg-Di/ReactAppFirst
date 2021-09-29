@@ -1,0 +1,22 @@
+.Timer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 40rem;
+    margin: 2rem auto;
+    &__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       &__item {
+           width: 5rem;
+           height: 6rem;
+           box-sizing:border-box;
+           border: 2px solid white;
+           box-shadow:0 0 1rem 0.2rem rgb(255, 255, 255);
+           p {
+               font-size: 2.5rem;
+               padding: 1rem 0;
+           }
+       }
+    }
+}

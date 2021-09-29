@@ -1,0 +1,26 @@
+.News {
+    text-align: center;
+    &__slider{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__link {
+        text-decoration: none;
+        color: #fff;
+        transition: .7s;
+    }
+    &__link:hover {
+        color: #ccc;
+    }
+    &__cardfirst{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__cardsecond {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}   

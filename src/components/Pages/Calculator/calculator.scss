@@ -1,0 +1,52 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.Calculator {
+    background: rgba(0,0,0, .7);
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    box-shadow:0 0 5rem 4px rgb(255, 255, 255);
+    &__res {
+        margin-bottom: 3rem;
+      
+    }
+    &__buttons{
+        display: flex;
+        width: 15rem;
+        margin: 1rem auto;
+        justify-content: space-between;
+        &__button{
+            box-shadow: 2px 2px 2px black;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+        &__button:active{
+            border: none; 
+        }
+    }
+    &__inputs{
+        display: flex;
+        width: 40rem;
+        margin: 1rem auto;
+        justify-content: space-between;
+        &__input {
+            box-shadow:0 0 15px 4px rgba(112, 112, 112, 0.781);
+            border-radius: 1rem;
+            padding: 0.7rem;
+            box-sizing:border-box;
+            transition: linear .7s;
+            outline: none;
+        }
+        &__input:focus{
+            box-shadow:0 0 15px 4px rgb(255, 255, 255);
+        }
+    }
+}
+.Timer{
+    text-align: center;
+    margin: 3rem auto;
+}

@@ -1,0 +1,13 @@
+.About {
+    background: url('https://www.fitnesstrend.com/sites/default/files/styles/700x350/public/Ragazze%20FItness%20700.jpg?itok=lI_Ne6FY' )0 0/100% 100%;
+    background-repeat: no-repeat;
+    height: 28rem;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    padding: 8rem;
+    &__goal {
+      color: rgb(253, 253, 253);
+      flex: 0 1 auto;
+    }
+}

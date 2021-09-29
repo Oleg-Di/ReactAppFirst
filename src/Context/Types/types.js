@@ -1,0 +1,5 @@
+export const ACTIVE_HANDLER = 'ACTIVE_HANDLER'
+export const ID_CHANGER = 'ID_CHANGER'
+export const DISACTIVE_HANDLER = 'DISACTIVE_HANDLER'
+export const CHECK_FALSE = 'CHECK_FALSE'
+export const CHECK_TRUE = 'CHECK_TRUE'

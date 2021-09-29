@@ -1,12 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import ContactState from './Context/ContactDropContext/ContactDropState';
+import NavbarState from './Context/NavBarContext/navbarState';
+import TraningsState from './Context/TranigsContext/tranigsState';
+
 
 ReactDOM.render(
   <React.StrictMode>
+    <BrowserRouter>
+    <TraningsState>
+    <NavbarState>
+    <ContactState>
     <App />
+    </ContactState>
+    </NavbarState>
+     </TraningsState>
+ 
+    </BrowserRouter>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

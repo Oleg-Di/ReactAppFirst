@@ -1,0 +1,32 @@
+.TrainingDrawer {
+    // border: 2px solid white;
+       position: relative;
+    // left: 22rem;
+    // top: 0;
+    // bottom: 0;
+    // max-width: 300px;
+    height: 100%;
+    padding: 0.5rem;
+    box-sizing:border-box;
+    // background: rgba(90, 86, 86, 0.7);
+    // background: url('https://www.muscleandfitness.com/wp-content/uploads/2019/04/10-Exercises-Build-Muscle-Bench-Press.jpg?quality=86&strip=all') 0 0/100% 100% no-repeat;
+    transform: translateX(0px);
+    transition: .22s ease-in;
+    z-index: 1;
+    color: white;
+    font-size: 2rem;
+    flex: 1 1 50%;
+    margin-top: 1rem;
+    &__close{
+        transform: translateX(50rem);
+    }
+    &__backone{
+        background: url('https://www.muscleandfitness.com/wp-content/uploads/2019/04/10-Exercises-Build-Muscle-Bench-Press.jpg?quality=86&strip=all') 0 0/100% 100% no-repeat;
+    }
+    &__backtwo{
+        background: url("https://www.ironmanmagazine.com/wp-content/uploads/how_to_gain_muscle-1024x683.jpg") 0 0/100% 100% no-repeat;
+    }
+    &__backthree{
+        background: url("https://oldschoollabs.com/wp-content/uploads/2019/05/reverse-lung.jpg") 0 0/100% 100% no-repeat;
+    }
+}
